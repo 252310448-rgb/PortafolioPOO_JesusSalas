@@ -13,7 +13,6 @@ El sistema resuelve dos problemas de organización de datos sin usar bases de da
 
 ## 4. Tecnologías utilizadas
 * PHP
-* XAMPP (Servidor local Apache)
 * Git y GitHub
 
 ## 5. Conceptos aplicados (según temario)
@@ -27,12 +26,12 @@ El sistema resuelve dos problemas de organización de datos sin usar bases de da
 ![Código del sistema](capturas/codigo2.png)
 
 ### Ejecución del programa en el navegador:
-![Pantalla del sistema](capturas/ejecucion.png)
+![Pantalla del sistema](Evidencia/ejecucion.png)
 
 ## 7. Instrucciones de ejecución
-1. Mover la carpeta del proyecto a la ruta `C:/xampp/htdocs/`.
-2. Abrir el panel de XAMPP y activar el módulo de **Apache**.
-3. En el navegador web, ingresar a la dirección: `http://localhost/[Nombre_De_Tu_Carpeta]/index.php` (revisando que el index esté en la raíz).
+1. Solamente corre el programa en VSCODE y soltará el mensaje de que todo está listo.
 
 ## 8. Reflexión personal
-* **¿Qué aprendí?:** Aprendí a estructurar las clases en carpetas separadas (`src/Logistica`) y a usar el tipado estricto en
+* **¿Qué aprendí?:** Aprendí a estructurar las clases en carpetas separadas (`src/Logistica`) y a usar el tipado estricto en PHP directamente en las propiedades.También me quedó más claro cómo la visibilidad privada realmente bloquea el acceso desde archivos externos como el `index.php`.
+* **¿Qué fue difícil?:** Lo más complicado fue terminar todo en los 30 minutos del examen. Me costó un poco de trabajo recordar la sintaxis exacta para asignarle el `DateTime` al sensor y me dio error al principio cuando intenté asignarle valor a `costoInterno` porque es privada.
+* **¿Qué mejoraría?:** Estaría bien agregarle métodos *Getters* y *Setters* para poder interactuar con las variables privadas de forma correcta, y meterle algo de HTML/CSS para que los resultados de las pruebas del `index.php` no se vean en texto plano y aburrido en el navegador.
